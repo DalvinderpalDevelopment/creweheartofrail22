@@ -4,8 +4,23 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>Crewe - Heart of Rail</title>
-		<meta name="description" content="Landing page for Crewe - Heart of Rail campaign" />
+		<meta name="title" content="Crewe | Heart of Rail UK Campaign">
+		<meta name="description" content="At the heart of rail in the UK, Crewe leads in innovation, engineering, and rail connectivity, shaping the future of transport.">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://crewerail22.dalvinderpalssoora.co.uk">
+		<meta property="og:title" content="Crewe | Heart of Rail UK Campaign">
+		<meta property="og:description" content="At the heart of rail in the UK, Crewe leads in innovation, engineering, and rail connectivity, shaping the future of transport.">
+		<meta property="og:image" content="./assets/dist/images/crewe-rail-cover.png">
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" content="https://crewerail22.dalvinderpalssoora.co.uk">
+		<meta name="twitter:title" content="Crewe | Heart of Rail UK Campaign">
+		<meta name="twitter:description" content="At the heart of rail in the UK, Crewe leads in innovation, engineering, and rail connectivity, shaping the future of transport.">
+		<meta name="twitter:image" content="./assets/dist/images/crewe-rail-cover.png">
 
 		<!-- Add jQuery -->
 		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous" ></script>
@@ -408,6 +423,6 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer>g
 	</body>
 </html>
