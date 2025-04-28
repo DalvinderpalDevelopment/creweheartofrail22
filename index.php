@@ -423,7 +423,7 @@
 						<a class="px-4" href="#">Privacy & Cookie Policy</a>
 					</div>
 					<div class="copyright col-12 col-md-2 text-center text-md-end py-3 py-md-0">
-						<p>&copy; Copyright Crewe Town Board</p>
+						<p>&copy; Copyright - Built &amp; Developed by <a href="https://portfolio.dalvinderpalssoora.co.uk/" alt="Link to developer: Dalvinderpal Soora Portfolio">Dalvinderpal Soora</a></p>
 					</div>
 				</div>
 			</div>
