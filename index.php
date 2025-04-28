@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Crewe - Heart of Rail</title>
 		<meta name="description" content="Landing page for Crewe - Heart of Rail campaign" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,12 +15,12 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous" ></script>
 
 		<!-- Add LightSlider -->
-		<link rel="stylesheet" href="./assets/lib/lightslider/css/lightslider.css" />
-		<script type="text/javascript" src="./assets/lib/lightslider/js/lightslider.js"></script>
+		<link rel="stylesheet" href="./assets/dist/lib/lightslider/css/lightslider.css" />
+		<script type="text/javascript" src="./assets/dist/lib/lightslider/js/lightslider.js"></script>
 
 		<!-- Add Pushbar -->
-		<link rel="stylesheet" href="./assets/lib/pushbar/css/pushbar.min.css" />
-		<script type="text/javascript" src="./assets/lib/pushbar/js/pushbar.min.js"></script>
+		<link rel="stylesheet" href="./assets/dist/lib/pushbar/css/pushbar.min.css" />
+		<script type="text/javascript" src="./assets/dist/lib/pushbar/js/pushbar.min.js"></script>
 
 		<!-- Add Google Font Chivo -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -29,15 +28,15 @@
 		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet" />
 
 		<!-- Add CSS File for site -->
-		<link rel="stylesheet" href="./assets/css/base.css" />
-		<script type="text/javascript" src="./assets/js/base.js"></script>
+		<link rel="stylesheet" href="./assets/dist/css/main.css" />
+		<script type="text/javascript" src="./assets/dist/js/main.js"></script>
 	</head>
 	<body>
 		
 		<!-- Mobile Menu Content -->
 		<div class="mobile-menu" data-pushbar-id="mobile-menu" data-pushbar-direction="right">
 			<button class="border-0" data-pushbar-close>
-				<img src="./assets/images/xmark-solid.svg" />
+				<img src="./assets/dist/images/xmark-solid.svg" alt="Close mobile icon" />
 			</button>
 			<div class="content">
 				<div class="text-size text-center pb-3">
@@ -50,14 +49,14 @@
 				</div>
 				<div class="links">
 					<ul class="">
-						<li class="text-center py-3"><a href="#">Back our Bid</a></li>
-						<li class="text-center py-3"><a href="#">Latest Updates</a></li>
-						<li class="text-center py-3"><a href="#">Supporters Toolkit</a></li>
+						<li class="text-center py-3"><a href="#" aria-label="Back our bids link">Back our Bid</a></li>
+						<li class="text-center py-3"><a href="#" aria-label="Latest updates link">Latest Updates</a></li>
+						<li class="text-center py-3"><a href="#" aria-label="Supporters toolkit link">Supporters Toolkit</a></li>
 					</ul>
 				</div>
 				<div class="logos">
-					<img class="w-100 pb-3" src="./assets/images/logo-10.png" alt="Great British Railways Transiiton Team Logo" />
-					<img class="w-100 pb-3" src="./assets/images/logo-1.png" alt="Cheshire East Council Logo" />
+					<img class="w-100 pb-3" src="./assets/dist/images/logo-10.png" alt="Great British Railways Transiiton Team Logo" />
+					<img class="w-100 pb-3" src="./assets/dist/images/logo-1.png" alt="Cheshire East Council Logo" />
 				</div>
 			</div>
 		</div>
@@ -68,17 +67,17 @@
 				<div class="logo-section row">
 					<div class="col-12 col-md-6">
 						<div class="logo text-center text-md-start py-4 px-5">
-							<img src="./assets/images/site-logo.svg" alt="Crewe Site Logo" />
+							<img src="./assets/dist/images/site-logo.svg" alt="Crewe Site Logo" />
 						</div>
 					</div>
 					<div class="d-flex justify-content-center justify-content-md-end align-items-center col-12 col-md-6 pb-3 pb-md-0">
 						<div class="mobile">
 							<button class="border-0" data-pushbar-target="mobile-menu">
-								<img src="./assets/images/bars-solid.svg" />
+								<img src="./assets/dist/images/bars-solid.svg" alt="Hamburger mobile icon" />
 							</button>
 						</div>
 						<div class="button py-4 px-5">
-							<a class="pink-button text-decoration-none mt-0" href="#form-section">Back Crewe's Bid</a
+							<a class="pink-button text-decoration-none mt-0" href="#form-section" aria-label="Back crewe bids link">Back Crewe's Bid</a
 							>
 						</div>
 					</div>
@@ -87,9 +86,9 @@
 					<div class="col-12 px-0">
 						<div class="container py-3 px-5">
 							<ul class="d-flex justify-content-center align-items-center mb-0">
-								<li class="text-center"><a href="#">Back our Bid</a></li>
-								<li class="text-center"><a href="#">Latest Updates</a></li>
-								<li class="text-center"><a href="#">Supporters Toolkit</a></li>
+								<li class="text-center"><a href="#" aria-label="Back our bids link">Back our Bid</a></li>
+								<li class="text-center"><a href="#" aria-label="Latest updates link">Latest Updates</a></li>
+								<li class="text-center"><a href="#" aria-label="Supporters toolkit link">Supporters Toolkit</a></li>
 							</ul>
 						</div>
 					</div>
@@ -99,14 +98,14 @@
 				<div class="logo-section row">
 					<div class="col-12 col-md-6">
 						<div class="logo d-flex justify-content-between align-items-center py-4 px-5">
-							<img src="./assets/images/site-logo.svg" alt="Crewe Site Logo" />
-							<img src="./assets/images/logo-10.png" alt="Great British Railways Transiiton Team Logo" />
-							<img src="./assets/images/logo-1.png" alt="Cheshire East Council Logo" />
+							<img src="./assets/dist/images/site-logo.svg" alt="Crewe Site Logo" />
+							<img src="./assets/dist/images/logo-10.png" alt="Great British Railways Transiiton Team Logo" />
+							<img src="./assets/dist/images/logo-1.png" alt="Cheshire East Council Logo" />
 						</div>
 					</div>
 					<div class="d-flex justify-content-end align-items-center col-12 col-md-6">
 						<div class="button py-4 px-5">
-							<a href="#form-section" class="pink-button text-decoration-none mt-0">Back Crewe's Bid</a>
+							<a href="#form-section" class="pink-button text-decoration-none mt-0" aria-label="Back crewe bids link">Back Crewe's Bid</a>
 						</div>
 						<div class="text-size pe-5">
 							<p>Text Size:</p>
@@ -132,7 +131,7 @@
 					</div>
 					<div class="image-section d-flex justify-content-center align-items-center col-12 col-md-6 px-0">
 						<div class="image">
-							<img class="w-100 img-fluid" src="./assets/images/hero.jpg" alt="Crewe station hero image" />
+							<img class="w-100 img-fluid" src="./assets/dist/images/hero.jpg" alt="Crewe station hero image" />
 						</div>
 					</div>
 				</div>
@@ -145,7 +144,7 @@
 				<div class="row">
 					<div class="image-section d-flex justify-content-center align-items-center col-12 col-md-6 p-5">
 						<div class="image expandable mb-5">
-							<img class="img-fluid" src="./assets/images/crewe-arial-sq.jpg" alt="Crewe areial view image"
+							<img class="img-fluid" src="./assets/dist/images/crewe-arial-sq.jpg" alt="Crewe areial view image"
 							/>
 						</div>
 					</div>
@@ -153,18 +152,11 @@
 						<div class="text">
 							<h2 class="pb-4">Crewe - The Heart of Rail</h2>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Curabitur facilisis euismod lorem, at aliquam eros interdum at.
-								In eu faucibus odio. Ut quis nulla enim. Fusce eu est arcu.
-								Nulla facilisi. Nullam et quam sed augue commodo semper. Mauris
-								nec elementum tellus. Sed non arcu quis est malesuada accumsan
-								sed iaculis nisi. Donec lacinia diam at ligula interdum, a
-								facilisis augue consequat. Nam nec aliquet turpis. Proin sit
-								amet sollicitudin nisl, at tempus dolor. Ut fringilla velit
-								aliquet odio fringilla porta. Suspendisse id eros quis leo
-								euismod tincidunt a sed odio. Sed eget mattis lorem, in vehicula
-								turpis. Aliquam dignissim diam sem, nec lacinia purus varius sit
-								amet.
+								Great British Railways (GBR), a state-owned company, could potentially bring a 
+								significant economic and social boost to Crewe, which has a rich history in the railway industry. 
+								Crewe's bid to be the headquarters for GBR, which is expected to take over from Network Rail in 2023, 
+								is supported by local businesses, community groups, and residents who see the opportunity 
+								as a chance to revitalize the town and create jobs. 
 							</p>
 						</div>
 					</div>
@@ -181,26 +173,23 @@
 							<h2>Great British Railways –</h2>
 							<h2>An Exciting Opportunity for Crewe’s Future</h2>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Curabitur facilisis euismod lorem, at aliquam eros interdum at.
-								In eu faucibus odio. Ut quis nulla enim. Fusce eu est arcu.
-								Nulla facilisi. Nullam et quam sed augue commodo semper. Mauris
-								nec elementum tellus. Sed non arcu quis est malesuada accumsan
-								sed iaculis nisi.
+								Crewe has been named as one of the six contenders to become the home of Great British Railways (GBR). 
+								As the only town on the shortlist, it will face off against the five cities of Derby, York, Newcastle, Doncaster and Birmingham.
+								The competition will see one of the six picked as the location of the headquarters of GBR. 
+								The creation of the new organisation, which will take control of the country's railways, 
+								was announced by Transport Secretary Grant Shapps last year.
 							</p>
 							<p>
-								Donec lacinia diam at ligula interdum, a facilisis augue
-								consequat. Nam nec aliquet turpis. Proin sit amet sollicitudin
-								nisl, at tempus dolor. Ut fringilla velit aliquet odio fringilla
-								porta. Suspendisse id eros quis leo euismod tincidunt a sed
-								odio. Sed eget mattis lorem, in vehicula turpis. Aliquam
-								dignissim diam sem, nec lacinia purus varius sit amet.
+								Before the shortlist was announced, more than 40 towns and cities put forward their bids. 
+								Potential locations were asked to address six key points for why they should be chosen: 
+								alignment to levelling up principles; connected and easy to get to; opportunities for GBR; 
+								value for money; railway heritage and links to the network; and public support.
 							</p>
 						</div>
 					</div>
 					<div class="image-section col-12 col-lg-6 px-0">
 						<div class="image">
-							<img class="w-100 img-fluid" src="./assets/images/hs2-render.jpg" alt="HS2 train image" />
+							<img class="w-100 img-fluid" src="./assets/dist/images/hs2-render.jpg" alt="HS2 train image" />
 						</div>
 					</div>
 				</div>
@@ -219,10 +208,10 @@
 						<ul id="carousel-advocates">
 							<li>
 								<div class="item image expandable">
-									<img class="d-block w-100" src="./assets/images/pete-waterman.jpg" alt="Pete Waterman Image" />
+									<img class="d-block w-100" src="./assets/dist/images/pete-waterman.jpg" alt="Pete Waterman Image" />
 									<div class="carousel-info d-flex justify-content-center py-5">
 										<div class="text-center">
-											<h4>Pete Waterman</h4>
+											<h3>Pete Waterman</h3>
 											<p>
 												Music producer, railway enthusiast and Cheshire East
 												resident
@@ -233,10 +222,10 @@
 							</li>
 							<li>
 								<div class="item image expandable">
-									<img class="d-block w-100" src="./assets/images/peter-graham.jpg" alt="Peter Graham Image" />
+									<img class="d-block w-100" src="./assets/dist/images/peter-graham.jpg" alt="Peter Graham Image" />
 									<div class="carousel-info d-flex justify-content-center py-5">
 										<div class="text-center">
-											<h4>Peter Graham</h4>
+											<h3>Peter Graham</h3>
 											<p>
 												Head of Policy & Regulatory Affairs, Freightliner Group
 												Limited
@@ -247,10 +236,10 @@
 							</li>
 							<li>
 								<div class="item image expandable">
-									<img class="d-block w-100" src="./assets/images/doug-kinsman.jpg" alt="Doug Kinsman Image" />
+									<img class="d-block w-100" src="./assets/dist/images/doug-kinsman.jpg" alt="Doug Kinsman Image" />
 									<div class="carousel-info d-flex justify-content-center py-5">
 										<div class="text-center">
-											<h4>Doug Kinsman</h4>
+											<h3>Doug Kinsman</h3>
 											<p>Chair of Crewe Town Board</p>
 										</div>
 									</div>
@@ -258,35 +247,35 @@
 							</li>
 							<li>
 								<div class="item image expandable">
-									<img class="d-block w-100" src="./assets/images/dr-keiran-mullan.jpg" alt="Dr Kieran Mullan Image" />
+									<img class="d-block w-100" src="./assets/dist/images/dr-keiran-mullan.jpg" alt="Dr Kieran Mullan Image" />
 									<div class="carousel-info d-flex justify-content-center py-5">
 										<div class="text-center">
-											<h4>Dr Kieran Mullan</h4>
+											<h3>Dr Kieran Mullan</h3>
 											<p>MP for Crewe and Nantwich</p>
 										</div>
 									</div>
 								</div>
 							</li>
 						</ul>
-						<button class="position-absolute border-0" id="prevSlide"></button>
-						<button class="position-absolute border-0" id="nextSlide"></button>
+						<button class="position-absolute border-0" id="prevSlide" aria-label="Previous slide button"></button>
+						<button class="position-absolute border-0" id="nextSlide" aria-label="Next slide button"></button>
 					</div>
 				</div>
 				<div class="row justify-content-center justify-content-lg-between align-items-center">
 					<div class="icons d-flex justify-content-center col-12 col-md-6 col-lg-2 py-3 py-lg-0">
-						<img src="./assets/images/logo-1.png" alt="Cheshire east council logo" />
+						<img src="./assets/dist/images/logo-1.png" alt="Cheshire east council logo" />
 					</div>
 					<div class="icons d-flex justify-content-center col-12 col-md-6 col-lg-2 py-3 py-lg-0">
-						<img src="./assets/images/logo-5.png" alt="Crewe town council logo" />
+						<img src="./assets/dist/images/logo-5.png" alt="Crewe town council logo" />
 					</div>
 					<div class="icons d-flex justify-content-center col-12 col-md-6 col-lg-2 py-3 py-lg-0">
-						<img src="./assets/images/logo-9.png" alt="Crewe logo" />
+						<img src="./assets/dist/images/logo-9.png" alt="Crewe logo" />
 					</div>
 					<div class="icons d-flex justify-content-center col-12 col-md-6 col-lg-2 py-3 py-lg-0">
-						<img src="./assets/images/logo-2.png" alt="Cheshire and Warrington partnership logo" />
+						<img src="./assets/dist/images/logo-2.png" alt="Cheshire and Warrington partnership logo" />
 					</div>
 					<div class="icons d-flex justify-content-center col-12 col-md-6 col-lg-2 py-3 py-lg-0">
-						<img src="./assets/images/logo-4.png" alt="Crewe FC logo" />
+						<img src="./assets/dist/images/logo-4.png" alt="Crewe FC logo" />
 					</div>
 				</div>
 			</div>
@@ -307,7 +296,7 @@
 					</div>
 				</div>
 				<div class="video d-flex align-items-center col-12 col-md-6 text-end">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/IkatpHBi_-M?si=17HeQA3YdGh2F64v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IkatpHBi_-M?si=17HeQA3YdGh2F64v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 				</div>
 			</div>
 		</section>
@@ -320,36 +309,32 @@
 				</div>
 				<div class="content row justify-content-between mx-0 pt-4">
 					<div class="article col-12 col-md-4 image expandable pb-4 pb-md-0">
-						<img class="w-100 img-fluid" src="./assets/images/crewe-arial-sq.jpg" alt="Crewe arial image" />
+						<img class="w-100 img-fluid" src="./assets/dist/images/crewe-arial-sq.jpg" alt="Crewe arial image" />
 						<div class="article-info pt-4">
-							<h4>Article title to go here</h4>
+							<h3>Crewe Station Redevelopment</h3>
 							<p><?php echo date('d.m.y'); ?></p>
 							<a href="#">Read More</a>
 						</div>
 					</div>
 					<div class="article col-md-4 image expandable pb-4 pb-md-0">
-						<img class="w-100 img-fluid" src="./assets/images/avanti-train.jpg" alt="Avanti train image" />
+						<img class="w-100 img-fluid" src="./assets/dist/images/avanti-train.jpg" alt="Avanti train image" />
 						<div class="article-info pt-4">
-							<h4>Article title to go here</h4>
+							<h3>Avanti Train New Timetable</h3>
 							<p><?php echo date('d.m.y'); ?></p>
 							<a href="#">Read More</a>
 						</div>
 					</div>
 					<div class="article col-12 col-md-4 image expandable pb-4 pb-md-0">
-						<img
-							class="w-100 img-fluid"
-							src="./assets/images/avanti-platform.jpg"
-							alt="Avanti platform image"
-						/>
+						<img class="w-100 img-fluid" src="./assets/dist/images/avanti-platform.jpg" alt="Avanti platform image" />
 						<div class="article-info pt-4">
-							<h4>Article title to go here</h4>
+							<h3>Avanti Services to Crewe</h3>
 							<p><?php echo date('d.m.y'); ?></p>
 							<a href="#">Read More</a>
 						</div>
 					</div>
 				</div>
 				<div class="text-center pt-4">
-					<button class="pink-button">See all updates</button>
+					<button class="pink-button" aria-label="See all updates link">See all updates</button>
 				</div>
 			</div>
 		</section>
@@ -362,16 +347,12 @@
 						<div class="text">
 							<h2>Drop us a message</h2>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Curabitur facilisis euismod lorem, at aliquam eros interdum at.
-								In eu faucibus odio. Ut quis nulla enim. Fusce eu est arcu.
-								Nulla facilisi. Nullam et quam sed augue commodo semper.
+								Crewe is leading the bid to become the Heart of Rail, a national hub for the future of Britain's railways. 
+								If you'd like to support our campaign, get involved, or simply learn more about our vision, we'd love to hear from you.
 							</p>
 							<p>
-								Mauris nec elementum tellus. Sed non arcu quis est malesuada
-								accumsan sed iaculis nisi. Donec lacinia diam at ligula
-								interdum, a facilisis augue consequat. Nam nec aliquet turpis.
-								Proin sit amet sollicitudin nisl, at tempus dolor
+								Whether you're a business, community group, or an individual passionate about rail innovation and growth, 
+								please reach out to us. Together, we can shape the future of transport and put Crewe at the centre of the UK's rail network.
 							</p>
 						</div>
 					</div>
@@ -380,22 +361,22 @@
 							<div class="form-message"></div>
 							<div class="form-element">
 								<label for="name">Name:</label>
-								<input type="text" name="name" required />
+								<input id="name" type="text" name="name" required />
 							</div>
 							<div class="form-element">
 								<label for="email">Email:</label>
-								<input type="email" name="email" required />
+								<input id="email" type="email" name="email" required />
 							</div>
 							<div class="form-element">
 								<label for="organisation">Organisation (optional):</label>
-								<input type="text" name="organisation" />
+								<input id="organisation" type="text" name="organisation" />
 							</div>
 							<div class="form-element">
 								<label for="message">Message:</label>
-								<textarea name="message" rows="4" cols="50"></textarea>
+								<textarea id="message" name="message" rows="4" cols="50"></textarea>
 							</div>
 							<div class="form-element">
-								<input class="checkbox" type="checkbox" name="updates" value="" />
+								<input id="updates" class="checkbox" type="checkbox" name="updates" value="" />
 								<label for="updates">Tick to confirm you’re happy to receive updates</label>
 							</div>
 							<div class="form-element d-flex justify-content-end">
@@ -415,15 +396,15 @@
 				</div>
 				<div class="footer-links row py-3 pt-0 pt-md-3">
 					<div class="social-icons col-12 col-md-2 text-center text-md-start py-3 py-md-0">
-						<a href="#"><img src="./assets/images/facebook-icon.svg" /></a>
-						<a href="#"><img src="./assets/images/twitter-icons.svg" /></a>
+						<a href="#" aria-label="Facebook"><img src="./assets/dist/images/facebook-icon.svg" alt="Facebook social icon" /></a>
+						<a href="#" aria-label="Twitter"><img src="./assets/dist/images/twitter-icons.svg" alt="Twitter social icon" /></a>
 					</div>
 					<div class="page-links col-12 col-md-8 text-center py-3 py-md-0">
-						<a class="px-4" href="#">Accessibility</a>
-						<a class="px-4" href="#">Privacy & Cookie Policy</a>
+						<a class="px-4" href="#" aria-label="Accessibility page link">Accessibility</a>
+						<a class="px-4" href="#" aria-label="Privacy and cookie policy page link">Privacy & Cookie Policy</a>
 					</div>
 					<div class="copyright col-12 col-md-2 text-center text-md-end py-3 py-md-0">
-						<p>&copy; Copyright - Built &amp; Developed by <a href="https://portfolio.dalvinderpalssoora.co.uk/" alt="Link to developer: Dalvinderpal Soora Portfolio">Dalvinderpal Soora</a></p>
+						<p>&copy; Copyright - Built &amp; Developed by <a href="https://portfolio.dalvinderpalssoora.co.uk/" alt="Link to developer: Dalvinderpal Soora Portfolio" aria-label="Developer portfolio link">Dalvinderpal Soora</a></p>
 					</div>
 				</div>
 			</div>

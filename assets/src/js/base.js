@@ -55,19 +55,22 @@
         $(".text-size span").removeClass("active");
         $(this).addClass("active");
         tiny.addClass("active");
-        $("p").css("font-size", "17px");
+        $("p").css("font-size", "16px");
+        $("a").css("font-size", "16px");
       });
       medium.click(function () {
         $(".text-size span").removeClass("active");
         $(this).addClass("active");
         medium.addClass("active");
-        $("p").css("font-size", "19px");
+        $("p").css("font-size", "22px");
+        $("a").css("font-size", "22px");
       });
       large.click(function () {
         $(".text-size span").removeClass("active");
         $(this).addClass("active");
         large.addClass("active");
-        $("p").css("font-size", "21px");
+        $("p").css("font-size", "24px");
+        $("a").css("font-size", "24px");
       });
     }
 
